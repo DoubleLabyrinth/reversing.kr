@@ -1,0 +1,23 @@
+#include <stdint.h>
+#include <stdio.h>
+#include <x86intrin.h>
+
+// please use gcc to compiler
+
+int main(int argc, char* argv[]) {
+    uint8_t encrypted_key[] = { 
+        0x44, 0xF6, 0xF5, 0x57, 0xF5, 0xC6, 0x96, 0xB6,
+        0x56, 0xF5, 0x14, 0x25, 0xD4, 0xF5, 0x96, 0xE6, 
+        0x37, 0x47, 0x27, 0x57, 0x36, 0x47, 0x96, 0x03, 
+        0xE6, 0xF3, 0xA3, 0x92, 0x00 
+    };
+
+    char key[sizeof(encrypted_key)] = {};
+
+    for (size_t i = 0; i < sizeof(encrypted_key); ++i) {
+        key[i] = __rorb(encrypted_key[i], 4);
+    }
+
+    printf("key = %s\n", key);
+    return 0;
+}
