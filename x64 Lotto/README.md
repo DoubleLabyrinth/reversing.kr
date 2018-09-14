@@ -10,7 +10,7 @@ Please goto [http://reversing.kr/challenge.php](http://reversing.kr/challenge.ph
 
 Drop it into IDA. 
 
-You will see the program will ask you input 6 integers and then use `rand()` function to generate 6 integers. Only these 6 integers are 	respectively equal will you get the flag.
+You will see the program will ask you input 6 integers and then use `rand()` function to generate 6 integers. Only these 6 integers are respectively equal will you get the flag.
 
 However, there is something interesting. You will see `srand()` is called before `rand()` and the seed of random numbers is the current timestamp which is not very precise, of course, for computer speaking.
 
