@@ -4,11 +4,11 @@
 
 Just 2 files `AHK2.exe` and `ReadMe`:
 
-> Reversing.Kr
-> 
-> It should be modified to work properly.
-> 
-> By rianatzz
+> Reversing.Kr  
+>   
+> It should be modified to work properly.  
+>   
+> By rianatzz  
 
 Please goto [http://reversing.kr/challenge.php](http://reversing.kr/challenge.php) to download.
 
