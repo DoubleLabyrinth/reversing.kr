@@ -22,7 +22,7 @@ The following checked items have been solved.
 - [x] CSHOP
 - [ ] PEPassword
 - [x] HateIntel
-- [ ] SimpleVM
+- [x] SimpleVM
 - [x] AutoHotkey2
 - [x] x64 Lotto
 - [x] CSHARP

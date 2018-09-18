@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+flag = []
+
+flag.append(0x09 ^ 0x60)
+flag.append(0x02 ^ 0x66)
+flag.append(0x26 ^ 0x15)
+flag.append(0x2d ^ 0x07)
+flag.append(0x22 ^ 0x4c)
+flag.append(0x07 ^ 0x63)
+flag.append(0x10 ^ 0x78)
+
+flag = bytes(flag).decode()
+print(flag)
