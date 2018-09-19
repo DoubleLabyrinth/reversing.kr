@@ -17,7 +17,7 @@ The following checked items have been solved.
 - [x] Ransomware
 - [x] Twist1
 - [x] Easy ELF
-- [ ] WindowsKernel
+- [x] WindowsKernel
 - [x] AutoHotkey1
 - [x] CSHOP
 - [ ] PEPassword
