@@ -16,7 +16,7 @@ So let't drop it into IDA.
 
 The dialog function is `sub_401130`. After reading decompilered code, you will find that a resource is loaded.
 
-Use [Resource Hacker](http://angusj.com/resourcehacker/) to find the corresponding resource. I've extracted it into `image.raw`. 
+Use [Resource Hacker](http://angusj.com/resourcehacker/) or [Resource Cracker](https://www.pelock.com/products/resource-cracker) to find the corresponding resource. I've extracted it into `image.raw`. 
 
 You can use Python to display this image:
 
